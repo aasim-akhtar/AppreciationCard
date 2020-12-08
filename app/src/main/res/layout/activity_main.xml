@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#A7FFEB">
+    <TextView
+        android:id="@+id/congo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulations, you've completed"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"
+        android:paddingLeft="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Lesson 1 \nBuilding Layouts:Part 1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="#FAFAFA"
+            android:padding="10dp"/>
+        <ImageView
+            android:id="@+id/i1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/i1"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:padding="10dp">
+    <TextView
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Lesson 2 \nBuilding Layouts:Part 2"
+        android:textSize="16sp"
+        android:padding="30dp"
+        android:textStyle="bold"
+        android:background="#FAFAFA"/>
+    <ImageView
+        android:id="@+id/i2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/i2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/l3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Lesson 3 \nPractice Set:Building Layouts"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:background="#FAFAFA"/>
+        <ImageView
+            android:id="@+id/i3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/I3"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+
+</LinearLayout>
